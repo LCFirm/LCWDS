@@ -10,7 +10,7 @@ html {
     
 
 }
-h1 {
+.main-heading  {
     text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -18,7 +18,9 @@ h1 {
     background-color: #ffff66;
     position: relative;
     border-radius: 14px;
-    border: solid 
+    border: solid 4px #4d4d4d;
+    margin-top: 50px;
+
 }
 
 div {
@@ -30,6 +32,10 @@ div {
 .topnav {
     background-color: #4d4d4d;
     overflow: hidden;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0px;
 }
   
 .topnav a {
@@ -125,11 +131,25 @@ div {
     font-style: italic;
 }
 
+/* Page TextStyles Container */
 
+.text-panel h1 {
+    font-family: 'Roboto', monospace;
+    font-weight: 700;
+    font-size: 26px;
+}
 
+.text-panel h2 {
+    font-family: 'Archivo Narrow', monospace;
+    font-weight: 700;
+    font-size: 20px;
+}
 
-
-
+.text-panel p {
+    font-family: 'Archivo Narrow', monospace;
+    font-weight: 400;
+    font-size: 14px;
+}
 
 
 
